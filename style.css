@@ -1,3 +1,9 @@
+/* Dependències */
+
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+
+/* General */
+
 body {
   height: 100vh;
   color: #020202;
@@ -13,6 +19,56 @@ li {
   list-style-type: none;
 }
 
+/* HEADER */
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 15px;
+
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: rgba(30, 143, 255, 0.808);
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+
 /* Portada */
 
 .portada {
@@ -20,13 +76,29 @@ li {
   color: #ffffff;
   background-image: url('assets/images/portada.jpeg');
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-position: center;
   text-align: center;
   position: relative;
+}
+
+.rocket {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  animation: 5s poly infinite alternate ease-in-out;
+  margin: 1em auto;
+  display: block;
+}
+
+@keyframes poly {
+  from {
+
+      clip-path: polygon(50% 0%, 100% 5%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  
+  to {
+
+    clip-path: polygon(44% 26%, 58% 38%, 58% 38%, 44% 81%, 44% 81%, 25% 49%);
+  }
 }
 
 .port_content {
@@ -58,7 +130,6 @@ li {
   padding: 20px;
   width: 200px;
   text-align: center;
-  -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   text-decoration: none;
   overflow: hidden;
@@ -72,32 +143,6 @@ li {
 
 .port_menu li a {
   color: rgb(0, 0, 0);
-}
-
-/* MENU NAV */
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-nav ul li {
-  float: left;
-}
-
-nav ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  background-color: #111;
 }
 
 /* CATEGORIA */
@@ -190,9 +235,6 @@ nav ul li a:hover {
     color: #ffffff;
     background-image: url('assets/images/portada.jpeg');
     background-repeat: repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -213,7 +255,6 @@ nav ul li a:hover {
     padding: 20px;
     width: 200px;
     text-align: center;
-    -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     text-decoration: none;
     overflow: hidden;
@@ -258,9 +299,6 @@ nav ul li a:hover {
     color: #ffffff;
     background-image: url('assets/images/portada.jpeg');
     background-repeat: repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     background-position: center;
     text-align: center;

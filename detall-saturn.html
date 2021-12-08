@@ -4,30 +4,21 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <link
-        rel="stylesheet"
-        type="text/css"
-        href="style.css"
-    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Viatges Sistema Solar</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Portada</a>
-        </li>
-        <li>
-          <a href="categoria.html">Categoria</a>
-        </li>
-        <li>
+    <header>
+      <div class="header">
+        <a href="index.html" class="logo"><i class="fas fa-rocket"></i></a>
+        <div class="header-right">
+          <a href="index.html">Home</a>
+          <a class="active" href="categoria.html">Categoria</a>
           <a href="precentacio.html">Presentació</a>
-        </li>
-        <li>
           <a href="enllaços.html">Enllaços</a>
-        </li>
-      </ul>
-    </nav>
+        </div>
+      </div>
+    </header>
     <h1>Viatge a Saturn</h1>
     <div class="det_content">
       <div>
@@ -68,7 +59,34 @@
         dues estrelles **
       </p>
     </div>
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <div class="footer-logo">
+          <a href="index.html" class="logo"><i class="fas fa-rocket"></i></a>
+        </div>
+      </div>
 
+      <div class="footer-center">
+        <h3>Viatges<span>SistemaSolar</span></h3>
+        <p class="footer-links">
+          <a href="index.html">Home</a>
+          ·
+          <a href="categoria.html">Categoria</a>
+          ·
+          <a href="precentacio.html">Presentació</a>
+          ·
+          <a href="enllaços.html">Enllaços</a>
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-icons">
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
     <script src="./index.js"></script>
   </body>
 </html>

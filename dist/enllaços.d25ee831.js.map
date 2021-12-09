@@ -1,1 +1,0 @@
-{"mappings":"AAAA,KAAK,CAAC,IAAI,GAAG,CAAO;AACpB,OAAO,CAAC,GAAG,EAAE,MAAM,EAAE,IAAI","sources":["index.js"],"sourcesContent":["const name = 'world';\nconsole.log(`Hello ${name}`);\n"],"names":[],"version":3,"file":"enllaços.d25ee831.js.map","sourceRoot":"/__parcel_source_root/"}

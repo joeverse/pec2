@@ -1,7 +1,6 @@
 {
-  "name": "pac1",
+  "name": "pec22",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +11,7 @@
     "clean": "rimraf dist .cache .cache-loader"
   },
   "keywords": [],
-  "author": "",
+  "author": "joel",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.8.6",
@@ -24,5 +23,14 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeverse/pec2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joeverse/pec2/issues"
+  },
+  "homepage": "https://github.com/joeverse/pec2#readme",
+  "description": ""
 }

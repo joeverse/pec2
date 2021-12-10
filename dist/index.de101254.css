@@ -3141,6 +3141,10 @@ p {
   font-size: 2vmin;
 }
 
+p {
+  padding: 2em;
+}
+
 /* Llistes */
 
 li {
@@ -3318,8 +3322,8 @@ a.logo {
 
 .det_content {
   margin: 1.6em 1.6em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
   padding-left: 5em;
   padding-right: 5em;
 }
@@ -3333,10 +3337,25 @@ a.logo {
   background-color: rgba(8, 8, 8, 0.781);
   color: white;
   padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.det_list_content {
+  padding: 2em;
 }
 
 .det_conditions {
   font-weight: bolder;
+  padding-left: 1em;
+}
+
+.hotel {
+  padding: 3em;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
 }
 
 /* PRESENTACIÓ */
@@ -3426,6 +3445,27 @@ a.logo {
     overflow: hidden;
     width: 50%;
   }
+  .hotel {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+  }
+  .det_list {
+    background-color: rgba(8, 8, 8, 0.781);
+    color: white;
+    padding: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .det_list_content {
+    padding: 0.5em;
+  }
+  p {
+    padding: 2em;
+    font-size: medium;
+  }
 }
 
 @media (max-width: 368px) {
@@ -3438,6 +3478,27 @@ a.logo {
     background-position: center;
     text-align: center;
     position: relative;
+  }
+  .hotel {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+  }
+  .det_list {
+    background-color: rgba(8, 8, 8, 0.781);
+    color: white;
+    padding: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .det_list_content {
+    padding: 0.5em;
+  }
+  p {
+    padding: 2em;
+    font-size: medium;
   }
 }
 

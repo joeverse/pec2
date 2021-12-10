@@ -3510,6 +3510,27 @@ a.logo {
   .destacada_cat {
     width: 40vw;
   }
+
+  .port_content h1 {
+    color: #ffffff;
+    font: normal 5.6vw 'Cookie', cursive;
+    margin: 0;
+    font-size: xx-large;
+  }
+
+  .port_content h1 span {
+    color: #5383d3;
+    font-size: xx-large;
+  }
+
+  .port_content h2 {
+    color: #ffffff;
+    padding: 3vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    font-size: medium;
+  }
 }
 
 @media (max-width: 368px) {

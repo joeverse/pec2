@@ -3318,6 +3318,10 @@ a.logo {
   padding-bottom: 0.5em;
 }
 
+.destacada_cat {
+  width: 20vw;
+}
+
 /* DETALL*/
 
 .det_content {
@@ -3466,6 +3470,10 @@ a.logo {
     padding: 2em;
     font-size: medium;
   }
+
+  .destacada_cat {
+    width: 40vw;
+  }
 }
 
 @media (max-width: 368px) {
@@ -3499,6 +3507,10 @@ a.logo {
   p {
     padding: 2em;
     font-size: medium;
+  }
+
+  .destacada_cat {
+    width: 40vw;
   }
 }
 

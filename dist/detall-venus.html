@@ -38,12 +38,11 @@
           tèrmiques i atmosfèriques (la temperatura mitjana de Venus és de
           463,85 ºC ).
         </p>
-        <img src="/venus.844ded5f.jpeg" srcset="/venus.23c3b709.jpeg 320w,/venus_wide-mobile.58311937.jpeg 480w,/venus_tablet.f3bd96ac.jpeg 768w,/venus_desktop.1c1e9823.jpeg 1024w" sizes="
-                (max-width: 800px) 320px,
-                (max-width: 1000px) 480px,
-                (max-width: 1200px) 768px,
-                1024px
-                " alt="venus">
+        <picture>
+          <source media="(max-width: 799px)" srcset="/venus.23c3b709.jpeg">
+          <source media="(min-width: 800px)" srcset="/venus_desktop.1c1e9823.jpeg">
+          <img src="/venus_desktop.1c1e9823.jpeg" alt="venus">
+        </picture>
       </div>
       <p>
         Venus té dos altiplans principals a manera de continents , elevant-se

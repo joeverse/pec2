@@ -43,6 +43,7 @@
           milians de persones.
         </p>
       </div>
+      <a class="logo_pres"><i class="fas fa-rocket"></i></a>
       <p>
         En aquest lloc web s'ofereixen una sèrie de viatges programats als
         planetes del Sistema Solar de Mart, Venus, Saturn, Urà i Neptú. Cadascún
@@ -69,8 +70,34 @@
         i sorprenent.
       </p>
       <div class="pres_imgs">
-        <img class="pres_img" src="assets/images/extra.jpeg" alt="" />
-        <img class="pres_img" src="assets/images/sistema-solar.jpeg" alt="" />
+        <img
+          src="assets/images/extra.jpeg"
+          srcset="
+            ./assets/images/mobile/extra_mobile.jpeg    300w,
+            ./assets/images/tablet/extra_tablet.jpeg    768w,
+            ./assets/images/desktop/extra_desktop.jpeg 1024w
+          "
+          sizes="
+                (max-width: 800px) 170px,
+                (max-width: 1200px) 268px,
+                400px
+                "
+          alt="extra"
+        />
+        <img
+          src="assets/images/sistema-solar.jpeg"
+          srcset="
+            ./assets/images/mobile/sistema-solar_mobile.jpeg    300w,
+            ./assets/images/tablet/sistema-solar_tablet.jpeg    768w,
+            ./assets/images/desktop/sistema-solar_desktop.jpeg 1024w
+          "
+          sizes="
+                (max-width: 800px) 170px,
+                (max-width: 1200px) 268px,
+                400px
+                "
+          alt="sistema-solar"
+        />
       </div>
     </div>
     <footer class="footer-distributed">

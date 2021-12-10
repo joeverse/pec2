@@ -3398,6 +3398,42 @@ a.logo {
   height: 100%;
 }
 
+.logo_pres {
+  font-size: 20vw;
+  color: rgb(157, 241, 0);
+  background-image: radial-gradient(
+    circle at 79.88% -14.09%,
+    #0090a8 0,
+    #008fb6 4.55%,
+    #008fc3 9.09%,
+    #008dcf 13.64%,
+    #008cd9 18.18%,
+    #0089e1 22.73%,
+    #0087e7 27.27%,
+    #0083eb 31.82%,
+    #007fed 36.36%,
+    #007aed 40.91%,
+    #0074ea 45.45%,
+    #486ee5 50%,
+    #6d67de 54.55%,
+    #875fd5 59.09%,
+    #9c57ca 63.64%,
+    #ae4ebe 68.18%,
+    #bc45b1 72.73%,
+    #c83da3 77.27%,
+    #d03594 81.82%,
+    #d73085 86.36%,
+    #db2d75 90.91%,
+    #dd2d66 95.45%,
+    #dc3157 100%
+  );
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  line-height: 25px;
+  border-radius: 10px;
+}
+
 /* MEDIA QUERIES*/
 
 @media (max-width: 600px) {

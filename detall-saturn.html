@@ -45,7 +45,16 @@
           grega ). El símbol de Saturn és ♄ que és el símbol de la falç de
           Saturn .
         </p>
-        <img src="assets/images/saturn.jpeg" class="img_detall" alt="" />
+        <img src="assets/images/saturn.jpeg" srcset="
+        ./assets/images/mobile/saturn_mobile.jpeg 320w,
+        ./assets/images/wide-mobile/saturn_wide-mobile.jpeg 480w,
+        ./assets/images/tablet/saturn_tablet.jpeg 768w,
+        ./assets/images/desktop/saturn_desktop.jpeg 1024w" sizes="
+                (max-width: 800px) 320px,
+                (max-width: 1000px) 480px,
+                (max-width: 1200px) 768px,
+                1024px
+                " alt="saturn">
       </div>
       <p>
         Els núvols de Saturn mostren un patró de bandes, com les bandes de

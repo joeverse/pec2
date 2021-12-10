@@ -44,7 +44,16 @@
           d'impacte de la Lluna i les valls, els deserts i els casquets polars
           de la Terra.
         </p>
-        <img src="assets/images/mart.jpeg" class="img_detall" alt="" />
+        <img src="assets/images/mart.jpeg" srcset="
+        ./assets/images/mobile/mart_mobile.jpeg 320w,
+        ./assets/images/wide-mobile/mart_wide-mobile.jpeg 480w,
+        ./assets/images/tablet/mart_tablet.jpeg 768w,
+        ./assets/images/desktop/mart_desktop.jpeg 1024w" sizes="
+                (max-width: 800px) 320px,
+                (max-width: 1000px) 480px,
+                (max-width: 1200px) 768px,
+                1024px
+                " alt="mart">
       </div>
       <p>
         La superfície de Mart presenta característiques morfològiques tant de la

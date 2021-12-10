@@ -49,7 +49,16 @@
           Bouvard va deduir que la seva òrbita era pertorbada gravitacionalment
           per un planeta desconegut.
         </p>
-        <img src="assets/images/Neptu.jpeg" class="img_detall" alt="" />
+        <img src="assets/images/Neptu.jpeg" srcset="
+        ./assets/images/mobile/Neptu_mobile.jpeg 320w,
+        ./assets/images/wide-mobile/Neptu_wide-mobile.jpeg 480w,
+        ./assets/images/tablet/Neptu_tablet.jpeg 768w,
+        ./assets/images/desktop/Neptu_desktop.jpeg 1024w" sizes="
+                (max-width: 800px) 320px,
+                (max-width: 1000px) 480px,
+                (max-width: 1200px) 768px,
+                1024px
+                " alt="Neptu">
       </div>
       <p>
         Neptú té un sistema d'anells planetaris, molt menys massiu i estès que

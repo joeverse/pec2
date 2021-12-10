@@ -48,7 +48,16 @@
           com ara aigua, amoníac i metà, juntament amb traces d'altres
           hidrocarburs.
         </p>
-        <img src="assets/images/ura.jpeg" class="img_detall" alt="" />
+        <img src="assets/images/ura.jpeg" srcset="
+        ./assets/images/mobile/ura_mobile.jpeg 320w,
+        ./assets/images/wide-mobile/ura_wide-mobile.jpeg 480w,
+        ./assets/images/tablet/ura_tablet.jpeg 768w,
+        ./assets/images/desktop/ura_desktop.jpeg 1024w" sizes="
+                (max-width: 800px) 320px,
+                (max-width: 1000px) 480px,
+                (max-width: 1200px) 768px,
+                1024px
+                " alt="ura">
       </div>
       <p>
         La massa d'Urà és aproximadament 14,5 vegades la de la Terra, cosa que
